@@ -1,0 +1,125 @@
+body{
+    background-image:url(cricket1.jpg);
+    background-size:cover;
+    
+}
+
+.title1{
+    color: rgb(226, 21, 21);
+    color: rgb(226, 89, 21);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 70px;   
+}
+
+
+.option{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: fit-content;
+    font-size: 30px;
+}
+
+
+.title2{
+    color: rgb(226, 21, 21);
+    color: rgb(10, 236, 240);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;   
+}
+
+
+.bat1{
+    font-size: 30px;
+    font-weight:900;
+    margin: 25px;   
+    color: rgb(10, 18, 235);
+    background-color: rgb(241, 241, 239);
+    box-shadow: 10px 10px 5px black;
+    padding-left: 55px;  
+    padding-right: 15px;  
+    border-radius: 10px;   
+   
+    
+}
+
+.title3{
+    color: rgb(226, 21, 21);
+    color: rgb(10, 236, 240);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: justify;   
+}
+
+
+.title4{
+    color: rgb(226, 21, 21);
+    color: rgb(232, 240, 10);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: justify;   
+}
+
+
+bat{
+    margin-bottom: 25px;
+}
+
+.title5{
+    color: rgb(4, 241, 20);
+    
+    background-color: rgb(249, 243, 235);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 75px;
+    text-align: justify;   
+    border-radius: 25px;
+    box-shadow: 5px 10px black;
+    padding-left:40px
+}
+
+
+
+.title6{
+    color: rgb(226, 21, 21);
+    color: rgb(10, 236, 240);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;   
+}
+
+
+#btn1{  
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+#btn2{  
+
+    font-size: 40px;
+}
+
+
+
+.title8{
+    color: rgb(226, 21, 21);
+    color: rgb(232, 240, 10);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+    padding-right: 50px; 
+    box-shadow: 5px 5px 5px 5px black; 
+}
+
+#downbtn{
+    margin-top: 120px;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
