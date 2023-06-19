@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home Page </title>
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/mystyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <h1 class='title1'>Hand Cricket</h1> <br>
+        </div>
+        <div class="d-flex justify-content-center">
+            <h3 class="title4"> An Idea of siva </h3> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <img src="../static/cricket3.gif" alt="" height="300px">       
+            <a href="/over" class="btn btn-success btn-lg" id="btn1">Play Again</a>
+        </div>
+
+
+        <div class="col-md-6">
+            <h3 class="title2">Match Summary</h3>  
+            <h1 class="title5">  {{target['msg']}}</h1>
+            
+            <h3 class="title6"> Target <span class="title4">&nbsp; &nbsp; &nbsp; {{target['tar']}} </span> </h3>   
+            <h3 class="title6"> Ur Score  <span class="title8"> &nbsp; &nbsp;   {{target['score']}} </span> </h3>  
+            <h3 class="title6"> Last Over <span class="title4"> &nbsp;  {{target['last']}} </span> </h3>  
+            <h3 class="title6"> Balls left<span class="title4">&nbsp;  {{target['bal']}}  </span> </h3>
+            <h3 class="title6"> Run Rate  <span class="title4"> &nbsp;  {{target['rr']}}  </span> </h3>    
+            <h3 class="title6"> Req Rate  <span class="title4"> &nbsp;  {{target['req']}}  </span> </h3>            
+        </div>
+        
+
+        <div class="col-md-3">
+            <img src="../static/cricket3.gif" alt="" height="300px">    
+            <a href="/" class="btn btn-warning btn-lg" id="btn2"> Quit Game </a>     
+        </div>
+
+    </div>
+
+    
+    
+
+    
+    
+    
+</body>
+</html>

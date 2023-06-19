@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Index </title>
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/mystyle.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <h1 class='title1'>Hand Cricket</h1> <br>     
+                
+        </div>
+        <div class="d-flex justify-content-center">
+            <h3 class="title4"> Siva Creations </h3> 
+        </div>
+        <hr>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h2 class="title2"> Play Ground</h2>
+                <form action="/over" method="post">
+    
+                    <div class="offset-md-1 col-md-5 bat1">
+                        <label for="bat">Start Batting  </label><br>
+                        <input type="number" name="run" id="bat"  placeholder="Run"  min="1" max="6"  > 
+                        <input type="submit" value="Bat" class="btn btn-success btn-lg" >
+                    </div>
+                    <a href="/" class="btn btn-danger btn-lg" id="downbtn"> Quit Game </a>    
+                </form>  
+                
+                
+                
+            </div>
+
+
+            <div class="col-md-6">
+                <h3 class="title2">Score Card </h3>   
+
+                <h3 class="title3">Target <span class="title4">&nbsp; &nbsp; &nbsp; {{target['tar']}} </span> </h3>  
+               
+                <h3 class="title3">Ur Score   <span class="title8"> &nbsp; &nbsp;   {{target['score']}} </span> </h3>  
+                <h3 class="title3">Your Run   <span class="title4"> &nbsp;  {{target['run']}} </span> </h3>  
+                <h3 class="title3"> Balls left <span class="title4">&nbsp;  {{target['bal']}}  </span> </h3>
+                <h3 class="title3"> Run Rate  <span class="title4"> &nbsp;  {{target['rr']}}  </span> </h3>    
+                <h3 class="title3"> Req Rate  <span class="title4"> &nbsp;  {{target['req']}}  </span> </h3>   
+                <h3 class="title3"> Result    <span class="title4"> &nbsp;  {{target['msg']}}  </span> </h3>   
+                
+            </div>
+
+
+ 
+        </div>
+        
+    </div>
+
+
+    
+</body>
+</html>
