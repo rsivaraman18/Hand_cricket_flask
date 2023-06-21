@@ -1,7 +1,6 @@
 from flask import Flask,render_template,request,session
 import random
 
-
 app = Flask(__name__)
 app.secret_key = '1234'
 
