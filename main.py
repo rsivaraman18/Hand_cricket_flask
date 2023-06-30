@@ -6,7 +6,6 @@ app.secret_key = '1234'
 
 # ( )
 # print ( )
-
 @app.route('/')
 def home( ):
     return render_template('home.html')
